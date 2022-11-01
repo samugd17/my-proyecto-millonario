@@ -1,6 +1,6 @@
 <div align="justify">
 
-# Manipulación Avanzada en Git (trabajo con tags y ramas)
+# Manipulación Avanzada en Git (trabajo con tags y ramas).
 
 Crear un repositorio en vuestro GitHub llamado **my-proyecto-millonario**.
 
@@ -123,44 +123,54 @@ Subir los cambios al repositorio remoto.
 
 ## Listado de ramas
 
-1. Listar las ramas con merge y las ramas sin merge.
+Listar las ramas con merge y las ramas sin merge.
 
-~~~
-git branch --merged
-git branch --no-merged
-~~~
+</br>
+<div align="center">
+  <img src="https://github.com/samugd17/my-proyecto-millonario/blob/main/IMG/5.%20Listado%20de%20ramas.png" >
+</div>
+</br>
 
 ## Arreglar conflicto
 
-1. Arreglar el conflicto anterior y hacer un commit.
+Arreglar el conflicto anterior y hacer un commit.
 
-~~~
-vim 1.txt
-git add .
-git commit -m "arreglado merge en 1.txt"
-~~~
+- Lo hacemos a través del comando _"vim 1.txt"_, el cual nos permitirá  abrir un editor de código donde podremos elegir con qué versión quedarnos definitivamente además de poder editarla.
+
+</br>
+<div align="center">
+  <img src="https://github.com/samugd17/my-proyecto-millonario/blob/main/IMG/VIM.png" >
+</div>
+</br>
+
+- Una vez lo hayamos seleccionado y guardado, paramos el proceso con "ctrl + z".
+- Realizamos el _"add y commit"_.
+
+</br>
+<div align="center">
+  <img src="https://github.com/samugd17/my-proyecto-millonario/blob/main/IMG/6.%20Conflicto%20arreglado.png" >
+</div>
+</br>
 
 ## Borrar rama
 
-1. Crear un tag **v0.2**
+**1.** Crear un tag **v0.2**
 
-~~~
-git tag v0.2
-~~~
-
-1. Borrar la rama **v0.2**
-
-~~~
-git branch -d v0.2
-~~~
+**2.** Borrar la rama **v0.2**
 
 ## Listado de cambios
 
-1. Listar los distintos commits con sus ramas y sus tags.
+Listar los distintos commits con sus ramas y sus tags.
 
-~~~
-git config --global alias.list 'log --oneline --decorate --graph --all'
-git list
-~~~
+</br>
+<div align="center">
+  <img src="https://github.com/samugd17/my-proyecto-millonario/blob/main/IMG/7.%20Final.png" >
+</div>
+</br>
+
+<div align="right">
+  Samuel Eloy González Díaz. 1ºDAW.
+</div>  
+
 
 </div>
