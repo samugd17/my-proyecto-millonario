@@ -26,7 +26,7 @@ Subir los cambios al repositorio remoto.
 - En mi caso, yo  me he saltado estos pasos iniciales, ya que al crear el repositorio he clicado sobre la opción _Add a README file_ que nos brinda Github a la hora de crear un repositorio.
 
 <div align="center">
-  <img src="" >
+  <img src="https://github.com/samugd17/my-proyecto-millonario/blob/main/IMG/Add%20a%20readme%20file.png" >
 </div>
 
 </div>
