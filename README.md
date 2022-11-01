@@ -80,7 +80,7 @@ Añadir un fichero **2.txt** en la rama **v0.2**.
 
 - Las ramas en Git, proporcionan un entorno aislado para cada cambio en tu código base. Es una forma de organizar éste, en una especie de subcarpetas, las cuales están compuestas cada una por ejemplo de una funcionalidad del código. De esta forma, cuando queramos implementar una nueva utilidad, podremos hacerlo sin poner en peligro todo el código base. Una vez esté hecho y bien probado, podremos fusionarlo con nuestro código base a través de la función git “merge”. Esto garantiza que la rama principal siempre contenga código de calidad para producción. 
 
-Las ramas son muy útiles en todo tipo de organizaciones, ya que como mencionamos anteriormente,  permite crear o avanzar en diferentes funcionalidades del código de forma simultánea, ordenada para cada grupo de desarrolladores y sin poner en riesgo el código base.
+- Las ramas son muy útiles en todo tipo de organizaciones, ya que como mencionamos anteriormente,  permite crear o avanzar en diferentes funcionalidades del código de forma simultánea, ordenada para cada grupo de desarrolladores y sin poner en riesgo el código base.
 
 ## Crear rama remota v0.2
 
